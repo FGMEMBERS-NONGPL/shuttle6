@@ -1,0 +1,304 @@
+Entire shuttlecraft model with instruments Totals: 24703 vertices, 16628 polygons or 26502 triangles, 300 objects
+ (179 objects animated by moving, flashing, or changing textures, excluding livery choices)
+
+Version# Vertices PolygonFaces Comments
+2014.Mar.14
+15.7		no change to models
+	Rewrite lighting functions and optimization of nasal.
+	Fix a lighting color error.
+	Add checks and new animation for operating hatch when main power is off.
+	Fix and improve hatch button lighting.
+	Add error trapping to tracking display.
+
+2014.Feb.02
+15.63		no change to models
+	Change key for Configuration dialog from Tab to Equal, for compliance with FG 3.0
+
+2012.Mar.06
+15.62	Remove ATC chatter at startup (introduced in FG 2.4)
+
+2011.May.29
+15.61	Add version information to splash screen.
+
+2009.Dec.20
+15.6	23823	16344	fix shuttle6 model
+	Fix missing poly of center display when tracking on.
+	Adjust nacelle glow.
+	Add conditions to display of text messages.
+	Fix some comment syntax.
+
+2009.Jul.12
+15.51		replace nav-sphere
+	Fix nav sphere size to scale at different field-of-view.
+
+2009.Jul.09
+15.5	Add new sphere model to increase visibility range for nav lights.
+	Add Waldo Walker to tracking display.
+	Fix initialization of tracking display to remember units preference.
+	Add trigger detail to walker animation dialog.
+	Fix shape of Waldo's head.
+	Fix timeout delay for popup info box.
+
+2009.Jun.29
+15.4		no change to models
+	Fix bug when walker steps out underground.
+	Consolidate some aircraft specific sections for walker.
+
+2009.May.20
+15.3	23823	16345	fix shuttle6 model
+	FIX: Walker can walk under bridges.
+	     Requires CVS build after 2009.Mar.18
+	FIX: Hover up to reset after hard landing.
+	Add new cockpit location.
+	Add falling without parachute.
+	Fix bug of 1701D location in model.
+
+2009.May.18
+15.2	23823	16345	remove redundant object from shuttle6
+	Simplify some lighting calculations.
+
+2009.May.17
+15.1	Fix red lighting bug on Waldo Walker.
+	Cleanup of orphaned properties.
+	Change menubar entries to allow loading of both configuration dialogs.
+	Adjust interior shadow lighting to new scale.
+
+2009.May.12
+15.0	23867	16356	Changes to nearly everything
+	Shorten nose of hull, raise instrument panels to accomodate pilot.
+	   Completely replace hull,
+	   Reconstruct a Class 2 Type 6 shuttlecraft to proper specs.
+	Add hover control to middle mouse button.
+	Convert all images to PNG and remove support for 0.9.10 and 1.0
+	Remove duplicate lighting fixture.
+	Add particle triggers and locations.
+	Add venting plasma "smoke" for leaving trails.
+	Add aircraft and airport tactical to LCARS panels.
+	  provides tracking and homing for top AI and MultiPlayer aircraft
+	  and homing to nearest airport, and selected airport.
+	  Restrict tracking text visibility to cockpit view.
+	Change nacelle-attached to nacelle-detached so default is visible over multiplay.
+	Add multiplayer capabilities.
+	   (Low poly model is separate and would be placed in the AI directory)
+	   Fully supported for version 1.9 and OSG
+	Add Waldo Walker for pilot and walker models.
+	   Add help and basic tutorials for Walker animations.
+	   Add Animations button to primary configuration dialog.
+	   Adjust handling of walker locations, and inside to outside smoothness.
+	   Add parachute to walker model.
+	   Improve ground detection for walker, for falling from ground objects.
+	   Jump and hop down hills.
+	   Add posing dialog for animating walker.
+	   Add animation sequence manager.
+	   Add walker orbit camera.
+	   Scale walker speed based on hardware frame-rate, for consistant walking speed.
+	   Add walking from 3rd person perspective. 
+	   Add position reporting to the preferences menu.
+	Fix ambient values to match rgb colors.
+	   Change ambient and emission levels to match new lighting levels in Development CVS.
+	   Remove need to manually edit which version of FlightGear is being run.
+	Rescale engineering status bar 3.
+	Add rubbing sound for touching ground without proper vertical clearance first.
+	Adjust deceleration upon skidding of unpowered landing.
+	Change to listener callback functions.
+	Add wildfire ignition upon crash.
+
+2008.Oct.29
+14.2		no change to 3d models
+	Change jumper parachute to [j]
+	Update url of my hanger to reflect change in hosting.
+
+2008.Oct.28
+14.1		no change to 3d models
+	Fix external view of hover-up to be smooth again.
+	Add vertical trajectory to walker upon exiting aircraft.
+	  (Walker should now work with aircraft with ejection seats.)
+	Walker now exits relative to aircraft pitch and roll instead
+	  of leaving at the center line.
+
+2008.Jul.21
+14.0		no change to 3d models
+	Increase volume for rumble sound.
+	Make hatch sound effects volume relative to view position.
+	Increase amplitude of 1 wav file.
+	Have skydiver land on face if parachute is not open.
+
+2008.Jun.05
+13.9	16212	15224	no change to 3d models
+	Restore original binding for ctrl-c, move "jump to helm" to alt-c
+
+2008.May.20
+13.8		no change to 3d models
+	Change key mappings for WASD pattern.
+	Add walk sideways left/right.
+
+2008.May.19
+13.7		no change to 3d models
+	Add walker. Walk outside on terrain.
+	Add boundaries for walking inside around cabin.
+	Add calculations for terminal velocity and free fall,
+	and use correct physics formulas for the path of a sky diver.
+	Add parachute for falling sky diving walker to land safely.
+	Add acceleration to hovering by keyboard controls.
+	Add running to walker when outside.
+	Fix keyboard problem with mod-up, for walker and hover functions.
+	Adjust walker speed when running, and reset when landing.
+	Add ability to transition from outside to inside by walking through hatch.
+	Disable view limits.
+	Stop crawling after crash.
+
+2008.Feb.29
+13.6		no change to 3d models
+	Remember instrumentation configuration.
+	Separate repetitive sections from nasal files.
+	Add [Ctrl]-E to jump directly to the helm position.
+
+2008.Feb.17
+13.5		no change to 3d models
+	Fix maximum speed to reflect correct atmospheric boundaries.
+	Clean up all text files and separate repetitive sections.
+
+2008.Feb.09
+13.4	16212	15224	no change to 3d models
+	Fix bug just introduced in catching requests for engine speed.
+
+2008.Feb.08
+13.3	16212	15224	no change to 3d models
+	Adjust maximum speed to reflect atmospheric boundaries.
+	Fix bug in catching rapid requests for engine speed.
+	Remove cockpit yoke scripts accidentally imported from other model.
+	Fix mis-wordings in help section.
+	Join impulse emissions animation definitions.
+
+2008.Feb.05
+13.2	16212	15224	change instrument panel
+	Changed how instrument panel displays.
+	Refined hotspot and pick locations.
+	Fixed hotspot finder. [Ctrl]-C now shows all hotspots.
+	Re-enable port-side instrument panel.
+
+2008.Feb.04
+13.1	16212	15224	no change to 3d models
+	Remove unneeded properties and duplicate subroutine calls.
+	Remove repetitive function call in livery lighting calculations.
+	Fix lighting emission bug introduced by new object for red lighting.
+	Improve dialog box buttons to insignia property connection.
+	Fix one panel click bug, added condition for intention.
+
+2008.Feb.02
+13.0	16212	15224	add object to model
+	Add red lighting for proper specular with sunshine.
+	Hide StarFleet Logo when livery choice is custom.
+	Add livery colors for exterior hull.
+
+12.2	16192	15217
+	Fix imperfection in nose hull revealed by crease omission.
+	Clean up model files for edges and crease value.
+
+2008.Jan.29
+12.1	16188	15221	no change to models
+	Fix emissions for artifical horizon instrument.
+	Fix mis-spelling in change-log.
+
+2008.Jan.29
+12.0	16188	15221	changes to all models
+	Update for compatibility with new release: FlightGear v1.0
+	Remodel cockpit placement, sizing, and detail to get closer to canon.
+	Add instrument panel consistant with LCARS design.
+	Fix warp glow for osg, and improve nacelle glow overall.
+	Fix long standing bug in jumping when too close to ground.
+	  change all model origins and center references
+	Replace entire nasal script with newer and faster version recently developed.
+	Add livery and color setting dialogs.
+	Remember livery choice.
+	Overhaul interior lighting for complete tinting under red lighting.
+	Add landing lights.
+	Add texture to interior flooring.
+	Add minimal submodel effects for damage.
+	Compatibility with previous Flightgear version 0.9.10:
+	  start with --aircraft=shuttle6-09
+	Compatibility with development version of Flightgear OSG:
+	  start with --aircraft=shuttle6-osg
+
+2007.Jul.29
+11.4	16455	19152	no change to 3d-model
+	Update xml and nasal to add keyboard keys to change cockpit view
+	and walk around cabin.
+
+2007.Jul.01
+11.3	16455	19152	no change to 3-d model
+	Update nasal file.
+		Fix bug in popup tip not showing
+
+2007.Jun.18
+11.2	16455	19152	no change to 3-d model
+	Update offset specifications.
+	Enhance nav and beacon halos for distance and nighttime visibility.
+
+2007.Apr.28
+11.1	16455	19152	no change to 3-d model
+	Replace image files with smaller versions.
+		Splash screen, LCARS panels.
+
+2007.Apr.27
+11	16455	19152
+	Added chairs.
+	Added red-alert lighting.
+	Re-calculated ground detection and hover level
+		Include nose and nacelles in hover calculations.
+
+2007.Mar.28
+10	16071	18916
+	Fixed lighting bugs of 12 interior surfaces.
+	Fixed console polygon overlap bug.
+	Reworked nav lights for more accuracy.
+
+2007.Mar.09
+9	16139	19124
+	Major reworking of scale and proportions of;
+	   body, rear hatch, engine cowling, and nose. Scale on Z axis= 0.80
+	Narrowed nose and smoothened vertices placement.
+	Reshaped impulse engine hull on lower half.
+	Aligned ripple detail with hull.
+	Added Voyager(TM) markings.
+	Added interior detail.
+	Added Star Trek(TM) arrowhead logo.
+	Added side Thruster packs.
+	Reshaped rear impulse engine.
+	Separated interior materials for lighting emissions.
+
+2007.Mar.03
+8	9832	15013
+	Added interior, rear hatch animation.
+
+2007.Feb.28
+7	9495	14793
+	More cleanup of hidden faces in window, top inside.
+	Add keyboard control to nasal script for anti-grav hover.
+
+2007.Feb.15
+6	9626	15068
+	Remove orphan edges introduced by new version of Blender.
+
+2007.Feb.07
+5	9625	15066
+	Replaced nav lights and beacons
+	Reshaped impulse engine hull, front and rear curves.
+	Reshaped warp nacelles.
+	Reshaped rear hatch/door, added texture.
+	Cleaned up extra vertices in hull.
+
+2007.Jan.30	First release version, and last to resemble Jorg's mesh.
+4	9016	17215
+	Added impulse engine textures, glow
+
+2007.Jan.24
+3	9016	17140
+	Added nav lights, beacons.
+
+2007.Jan.20
+2	8606	16459
+	Separated warp coil from drive, added warp halos and glows
+
+0	12486	24740
+	original unedited GalileoShuttle.3ds 1997 by Jorg Gerlach

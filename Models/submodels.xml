@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<!--== Type 6 Shuttlecraft  version 12.0 ==-->
+
+<PropertyList>
+ <submodel>
+	<name>left nacelle flare1</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-L-flaring</trigger>
+	<speed>3</speed>
+	<repeat>true</repeat>
+	<delay>0.37</delay>
+	<count>-1</count>
+	<x-offset>-1.05</x-offset>
+	<y-offset>-7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<pitch-offset>60</pitch-offset>
+	<life>0.3</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>left nacelle flare2</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-L-flaring</trigger>
+	<speed>1</speed>
+	<repeat>true</repeat>
+	<delay>0.54</delay>
+	<count>-1</count>
+	<x-offset>-2.99</x-offset>
+	<y-offset>-7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>135</yaw-offset>
+	<pitch-offset>135</pitch-offset>
+	<life>0.7</life>
+	<buoyancy>30</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>false</wind>
+ </submodel>
+
+ <submodel>
+	<name>left nacelle flare3</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-L-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.73</delay>
+	<count>-1</count>
+	<x-offset>-6.1</x-offset>
+	<y-offset>-7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.5</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>left nacelle flare4</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-L-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.45</delay>
+	<count>-1</count>
+	<x-offset>-9.2</x-offset>
+	<y-offset>-7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.5</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>left nacelle flare5</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-L-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.34</delay>
+	<count>-1</count>
+	<x-offset>-13.91</x-offset>
+	<y-offset>-7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.8</life>
+	<buoyancy>34</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>false</wind>
+ </submodel>
+
+ <submodel>
+	<name>right nacelle flare1</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-R-flaring</trigger>
+	<speed>1</speed>
+	<repeat>true</repeat>
+	<delay>0.37</delay>
+	<count>-1</count>
+	<x-offset>-1.05</x-offset>
+	<y-offset>7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<pitch-offset>60</pitch-offset>
+	<life>0.3</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>right nacelle flare2</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-R-flaring</trigger>
+	<speed>1</speed>
+	<repeat>true</repeat>
+	<delay>0.54</delay>
+	<count>-1</count>
+	<x-offset>-2.99</x-offset>
+	<y-offset>7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>135</yaw-offset>
+	<pitch-offset>135</pitch-offset>
+	<life>0.7</life>
+	<buoyancy>30</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>false</wind>
+ </submodel>
+
+ <submodel>
+	<name>right nacelle flare3</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-R-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.72</delay>
+	<count>-1</count>
+	<x-offset>-5.8</x-offset>
+	<y-offset>7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.5</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>right nacelle flare4</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-R-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.46</delay>
+	<count>-1</count>
+	<x-offset>-9.7</x-offset>
+	<y-offset>7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.5</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>right nacelle flare5</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/nacelle-R-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.34</delay>
+	<count>-1</count>
+	<x-offset>-13.91</x-offset>
+	<y-offset>7.21</y-offset>
+	<z-offset>1.26</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.8</life>
+	<buoyancy>34</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>false</wind>
+ </submodel>
+
+ <submodel>
+	<name>left engine flare1</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-L-flaring</trigger>
+	<speed>3</speed>
+	<repeat>true</repeat>
+	<delay>0.37</delay>
+	<count>-1</count>
+	<x-offset>-1.05</x-offset>
+	<y-offset>-4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<pitch-offset>60</pitch-offset>
+	<life>0.3</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>left engine flare2</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-L-flaring</trigger>
+	<speed>1</speed>
+	<repeat>true</repeat>
+	<delay>0.54</delay>
+	<count>-1</count>
+	<x-offset>-2.99</x-offset>
+	<y-offset>-4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>135</yaw-offset>
+	<pitch-offset>135</pitch-offset>
+	<life>0.7</life>
+	<buoyancy>30</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>false</wind>
+ </submodel>
+
+ <submodel>
+	<name>left engine flare3</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-L-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.73</delay>
+	<count>-1</count>
+	<x-offset>-6.1</x-offset>
+	<y-offset>-4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.5</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>left engine flare4</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-L-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.45</delay>
+	<count>-1</count>
+	<x-offset>-9.2</x-offset>
+	<y-offset>-4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.5</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>left engine flare5</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-L-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.34</delay>
+	<count>-1</count>
+	<x-offset>-13.91</x-offset>
+	<y-offset>-4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.8</life>
+	<buoyancy>34</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>false</wind>
+ </submodel>
+
+ <submodel>
+	<name>right engine flare1</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-R-flaring</trigger>
+	<speed>1</speed>
+	<repeat>true</repeat>
+	<delay>0.37</delay>
+	<count>-1</count>
+	<x-offset>-1.05</x-offset>
+	<y-offset>4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<pitch-offset>60</pitch-offset>
+	<life>0.3</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>right engine flare2</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-R-flaring</trigger>
+	<speed>1</speed>
+	<repeat>true</repeat>
+	<delay>0.54</delay>
+	<count>-1</count>
+	<x-offset>-2.99</x-offset>
+	<y-offset>4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>135</yaw-offset>
+	<pitch-offset>135</pitch-offset>
+	<life>0.7</life>
+	<buoyancy>30</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>false</wind>
+ </submodel>
+
+ <submodel>
+	<name>right engine flare3</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-R-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.72</delay>
+	<count>-1</count>
+	<x-offset>-5.8</x-offset>
+	<y-offset>4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.5</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>right engine flare4</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-R-flaring</trigger>
+	<speed>2</speed>
+	<repeat>true</repeat>
+	<delay>0.46</delay>
+	<count>-1</count>
+	<x-offset>-9.7</x-offset>
+	<y-offset>4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.5</life>
+	<buoyancy>36</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>true</wind>
+ </submodel>
+
+ <submodel>
+	<name>right engine flare5</name>
+	<model>Models/Geometry/flare.xml</model>
+	<trigger>ai/submodels/pylon-R-flaring</trigger>
+	<speed>1</speed>
+	<repeat>true</repeat>
+	<delay>0.34</delay>
+	<count>-1</count>
+	<x-offset>-13.91</x-offset>
+	<y-offset>4.87</y-offset>
+	<z-offset>1.11</z-offset>
+	<yaw-offset>180</yaw-offset>
+	<life>0.8</life>
+	<buoyancy>34</buoyancy>
+	<aero-stabilise>false</aero-stabilise>
+	<wind>false</wind>
+ </submodel>
+
+</PropertyList>

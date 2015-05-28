@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--== Type 6 Shuttlecraft  version 15.0 ==-->
+
+<PropertyList>
+ <panel> 
+	<path>Aircraft/shuttle6/Panels/tracking-text.xml</path>
+	<bottom-left>
+		<x-m>-1.389</x-m>
+		<y-m>-0.188</y-m>
+		<z-m>1.259</z-m>
+	</bottom-left>
+	<bottom-right>
+		<x-m>-1.389</x-m>
+		<y-m>0.269</y-m>
+		<z-m>1.259</z-m>
+	</bottom-right>
+	<top-left>
+		<x-m>-1.531</x-m>
+		<y-m>-0.188</y-m>
+		<z-m>1.579</z-m>
+	</top-left>
+ </panel>
+</PropertyList>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--== Type 6 Shuttlecraft  version 15.0 ==-->
+
+<PropertyList>
+<!-- instrument panel must be declared separate to be top layer and rotate -->
+ <panel> 
+	<path>Aircraft/shuttle6/Panels/track-callsigns.xml</path>
+	<bottom-left>
+		<x-m>-1.427</x-m>
+		<y-m>-0.963</y-m>
+		<z-m>1.464</z-m>
+	</bottom-left>
+	<bottom-right>
+		<x-m>-1.427</x-m>
+		<y-m>-0.899</y-m>	<!-- +0.065 -->
+		<z-m>1.464</z-m>
+	</bottom-right>
+	<top-left>
+		<x-m>-1.438</x-m>	<!-- -0.011 -->
+		<y-m>-0.963</y-m>
+		<z-m>1.487</z-m>	<!-- +0.023 -->
+	</top-left>
+ </panel>
+
+ <panel> 
+	<path>Aircraft/shuttle6/Panels/track-callsigns.xml</path>
+	<bottom-left>
+		<x-m>-1.427</x-m>
+		<y-m>0.337</y-m>
+		<z-m>1.464</z-m>
+	</bottom-left>
+	<bottom-right>
+		<x-m>-1.427</x-m>
+		<y-m>0.401</y-m>
+		<z-m>1.464</z-m>
+	</bottom-right>
+	<top-left>
+		<x-m>-1.438</x-m>
+		<y-m>0.337</y-m>
+		<z-m>1.487</z-m>
+	</top-left>
+ </panel>
+</PropertyList>

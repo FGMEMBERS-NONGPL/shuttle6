@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<!-- ===== Livery for  FlightGear 1.9 with OSG ===== -->
+<!-- ===== Type 6 Shuttlecraft  version 15.0   ===== -->
+
+<PropertyList>
+ <sim>
+	<model>
+		<livery>
+			<name type="string">Lavendar-Grey</name>
+			<material>
+				<hull>
+					<diffuse>
+						<red>0.8</red>
+						<green>0.8</green>
+						<blue>0.8</blue>
+					</diffuse>
+					<ambient>
+						<red>0.8</red>
+						<green>0.8</green>
+						<blue>0.8</blue>
+					</ambient>
+					<specular>
+						<red>0.8</red>
+						<green>0.8</green>
+						<blue>0.8</blue>
+					</specular>
+					<shininess>10</shininess>
+				</hull>
+
+				<covers>
+					<diffuse>
+						<red>0.8</red>
+						<green>0.8</green>
+						<blue>0.8</blue>
+					</diffuse>
+					<ambient>
+						<red>0.8</red>
+						<green>0.8</green>
+						<blue>0.8</blue>
+					</ambient>
+					<specular>
+						<red>0.8</red>
+						<green>0.8</green>
+						<blue>0.8</blue>
+					</specular>
+					<shininess>10</shininess>
+				</covers>
+
+				<ripple>
+					<diffuse>
+						<red>0.5</red>
+						<green>0.5</green>
+						<blue>0.5</blue>
+					</diffuse>
+					<ambient>
+						<red>0.5</red>
+						<green>0.5</green>
+						<blue>0.5</blue>
+					</ambient>
+					<specular>
+						<red>0.5</red>
+						<green>0.5</green>
+						<blue>0.5</blue>
+					</specular>
+					<shininess>10</shininess>
+				</ripple>
+
+				<stripe>
+					<diffuse>
+						<red>1</red>
+						<green>0</green>
+						<blue>0</blue>
+					</diffuse>
+					<ambient>
+						<red>1</red>
+						<green>0</green>
+						<blue>0</blue>
+					</ambient>
+					<specular>
+						<red>1</red>
+						<green>0.5</green>
+						<blue>0.5</blue>
+					</specular>
+					<shininess>30</shininess>
+				</stripe>
+
+				<interior-walls>
+					<ambient>
+						<red>0.5</red>
+						<green>0.47</green>
+						<blue>0.44</blue>
+					</ambient>
+				</interior-walls>
+
+				<interior-frame>
+					<ambient>
+						<red>0.73</red>
+						<green>0.7</green>
+						<blue>0.72</blue>
+					</ambient>
+				</interior-frame>
+
+				<interior-ripple>
+					<ambient>
+						<red>0.32</red>
+						<green>0.32</green>
+						<blue>0.28</blue>
+					</ambient>
+				</interior-ripple>
+
+				<interior-seat-cover>
+					<ambient>
+						<red>0.48</red>
+						<green>0.47</green>
+						<blue>0.39</blue>
+					</ambient>
+				</interior-seat-cover>
+
+				<interior-flooring>
+					<texture>canvas.png</texture>
+					<ambient>
+						<red>1</red>
+						<green>0.89</green>
+						<blue>0.82</blue>
+					</ambient>
+				</interior-flooring>
+			</material>
+		</livery>
+		<shuttle6>
+			<insignia>
+				<number type="int">1701</number>
+				<texture type="string">1701-D.png</texture>
+			</insignia>
+		</shuttle6>
+	</model>
+ </sim>
+</PropertyList>
